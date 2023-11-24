@@ -16,8 +16,7 @@ export default function Weather(props) {
       humidity: response.data.temperature.humidity,
       description: response.data.condition.description,
       date: new Date(response.data.time * 1000),
-      iconUrl:
-        "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png",
+      iconUrl: response.data.condition.icon_url,
     });
   }
 
