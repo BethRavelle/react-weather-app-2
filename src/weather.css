@@ -33,10 +33,10 @@
   font-weight: 400;
 }
 
-.Weather img {
-  margin: -14px;
-  vertical-align: top;
-  padding: 0;
+.Weather canvas {
+  margin-right: 5px;
+  margin-top: 10px;
+  display: inline-block;
 }
 
 .Weather .unit {
